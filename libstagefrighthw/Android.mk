@@ -35,12 +35,10 @@ LOCAL_C_INCLUDES:= \
         frameworks/native/include/media/hardware
 
 LOCAL_SHARED_LIBRARIES :=       \
-        libbinder               \
         libutils                \
         libcutils               \
         libdl                   \
-        libui                   \
-        libnativewindow         \
+        libnativewindow
 
 LOCAL_MODULE := libstagefrighthw
 
