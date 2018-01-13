@@ -1,4 +1,3 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-media))
 QCOM_MEDIA_ROOT := $(call my-dir)
 
 #Compile these for all targets under QCOM_BOARD_PLATFORMS list.
@@ -14,4 +13,4 @@ include $(QCOM_MEDIA_ROOT)/libc2dcolorconvert/Android.mk
 
 endif
 endif
-endif
+
