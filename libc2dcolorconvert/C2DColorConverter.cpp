@@ -34,6 +34,7 @@
 #include <linux/msm_kgsl.h>
 #include <sys/ioctl.h>
 #include <utils/Log.h>
+#include <unistd.h> 
 #include <dlfcn.h>
 #include <errno.h>
 
