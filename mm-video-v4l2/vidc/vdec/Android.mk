@@ -113,7 +113,9 @@ LOCAL_ADDITIONAL_DEPENDENCIES   := $(libmm-vdec-add-dep)
 LOCAL_HEADER_LIBRARIES          := \
     libnativebase_headers \
     libhardware_headers \
-    media_plugin_headers
+    media_plugin_headers \
+    copybit_headers \
+    gralloc_headers
 	
 LOCAL_PRELINK_MODULE    := false
 LOCAL_SHARED_LIBRARIES  := liblog libutils libui libcutils libdl

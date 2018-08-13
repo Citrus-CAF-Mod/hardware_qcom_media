@@ -98,7 +98,9 @@ LOCAL_SHARED_LIBRARIES    += libnativewindow
 
 LOCAL_HEADER_LIBRARIES    := \
     media_plugin_headers \
-    libhardware_headers
+    libhardware_headers \
+    copybit_headers \
+    gralloc_headers
 
 LOCAL_SRC_FILES   := src/omx_video_base.cpp
 LOCAL_SRC_FILES   += src/omx_video_encoder.cpp

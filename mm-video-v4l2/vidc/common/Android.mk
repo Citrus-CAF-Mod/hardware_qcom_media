@@ -38,7 +38,9 @@ LOCAL_PRELINK_MODULE      := false
 LOCAL_SHARED_LIBRARIES    := liblog libutils libcutils libdl
 LOCAL_HEADER_LIBRARIES    := \
     libutils_headers \
-    libhardware_headers
+    libhardware_headers \
+    copybit_headers \
+    gralloc_headers
 
 LOCAL_SRC_FILES   := src/extra_data_handler.cpp
 LOCAL_SRC_FILES   += src/vidc_color_converter.cpp
